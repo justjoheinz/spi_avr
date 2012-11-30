@@ -42,8 +42,8 @@ void spi_begin() {
   //pinMode(SCK, OUTPUT);
   //pinMode(MOSI, OUTPUT);
   
-  PORTB |= _BV(PIN5);
-  PORTB |= _BV(PIN3);
+  DDRB |= _BV(DD5);
+  DDRB |= _BV(DD3);
 }
 
 
