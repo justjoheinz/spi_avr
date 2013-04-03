@@ -16,7 +16,6 @@ uint8_t spi_transfer(uint8_t _data) {
 }
 
 void spi_begin() {
-  // TODO
   // Set SS to high so a connected chip will be "deselected" by default
   // digitalWrite(SS, HIGH);
   PORTB |= _BV(PIN2);
